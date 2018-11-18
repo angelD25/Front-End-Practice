@@ -1,0 +1,168 @@
+body
+{
+height :1169px;
+width :100%;
+}
+
+.Header
+{
+background-color : #000000;
+position : fixed;
+height : 50px;
+width : 100%;
+top : 0;
+}
+
+#h1,#h2,#h3
+{
+display : inline;
+}
+
+.Header > #h1
+{
+height : 50px;
+width : 60px;
+margin-left : 0px;
+}
+
+.Header > #h1 > img
+{
+float : left;
+height : 50px;
+width : 60px;
+margin-left : 0px;
+}
+
+.Header > #h2
+{
+height : 50px;
+width : 150px;
+margin-left : 50px;
+}
+
+.Header > #h2 > span
+{
+height : 50px;
+width : 150px;
+color : white;
+font-size : 20px;
+font : verdana;
+display : table-cell;
+vertical-align : middle;
+}
+
+.Header > #h3
+{
+height : 50px
+width : 40px;
+float : right;
+margin-right : 20px;
+}
+
+.Header > #h3 > img
+{
+height : 50px;
+width : 40px;
+}
+
+
+
+
+.Content
+{
+height : 600px;
+width : 750px;
+margin : 50px 50px 50px 50px;
+top : 0;
+float : left;
+position : fixed;
+color : black;
+font : verdana;
+font-weight : bold;
+font-size : 17px;
+}
+
+.Content > p#std
+{}
+
+.Content > p#std > em
+{}
+
+.Content > p#ed
+{}
+
+.Content > p#interest
+{}
+
+.Content > p#expert-at
+{}
+
+.Content > div.Expert-skills
+{}
+
+.Content > p#basic-at
+{}
+
+.Content > div.Basic-skills 
+{}
+
+
+
+
+
+
+.projects
+{
+width : 300px;
+top : 0;
+float : right;
+margin : 50px 0px 50px 50px;
+align-content : center;
+font-size : 17px;
+font-weight : bold;
+}
+
+.projects > p#proj-title
+{
+width : 300px;
+top : 30px;
+text-decoration : underline;
+text-transformation : uppercase;
+color : purple;
+font-size : 20px;
+text-align : left;
+position : fixed;
+background-color : white;
+}
+
+
+
+
+
+
+.Footer
+{
+height : 100;
+width : 100%;
+position : fixed;
+background-color : #000000;
+font-size : 20px;
+bottom : 0px
+}
+
+#block1,#block2,#block3
+{
+display : inline;
+}
+
+#es1,#es2,#es3,#es4,#es5,#es6,#es7,#es8
+{
+display : inline;
+}
+
+#bs1,#bs2,#bs3,#bs4
+{
+display : inline;
+}
+
+
